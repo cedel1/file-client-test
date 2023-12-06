@@ -10,7 +10,10 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-    "click"
+    "click",
+    "requests",
+    "grpcio",
+    "grpcio-tools",
 ]
 
 [project.urls]
@@ -23,4 +26,4 @@ CI = "https://github.com/cedel1/file-client/actions"
 file-client = "file_client.cli:cli"
 
 [project.optional-dependencies]
-test = ["pytest"]
+test = ["pytest", "pytest-cov", "responses"]
