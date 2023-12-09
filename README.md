@@ -1,11 +1,11 @@
 # file-client
 
-[![PyPI](https://img.shields.io/pypi/v/file-client.svg)](https://pypi.org/project/file-client-test/)
-[![Changelog](https://img.shields.io/github/v/release/cedel1/file-client?include_prereleases&label=changelog)](https://github.com/cedel1/file-client-test/releases)
-[![Tests](https://github.com/cedel1/file-client/workflows/Test/badge.svg)](https://github.com/cedel1/file-client-test/actions?query=workflow%3ATest)
+[![PyPI](https://img.shields.io/pypi/v/file-client-test.svg)](https://pypi.org/project/file-client-test/)
+[![Changelog](https://img.shields.io/github/v/release/cedel1/file-client-test?include_prereleases&label=changelog)](https://github.com/cedel1/file-client-test/releases)
+[![Tests](https://img.shields.io/badge/Tests-Results-darkgreen.svg)](https://github.com/cedel1/file-client-test/actions?query=workflow%3ATest)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/cedel1/file-client-test/blob/master/LICENSE)
 
-CLI application which retrieves and prints data from one of the described backends
+CLI application which retrieves and prints data about files from one of the described backends.
 
 ## Installation
 
