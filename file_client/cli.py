@@ -49,8 +49,8 @@ def get_client(context):
     default=DEFAULT_STDOUT_PRINT_MARKER,
     type=click.File('w'),
     metavar='OUTPUT',
-    help='Set the file where to store the output. Default is -, i.e. the' \
-        ' stdout.',
+    help='Set the file where to store the output. Default is -, i.e. the'
+         ' stdout.',
 )
 @pass_context
 def cli(context, backend, grpc_server, base_url, output):
@@ -71,7 +71,6 @@ def cli(context, backend, grpc_server, base_url, output):
 @pass_context
 def stat(context, uuid):
     'Prints the file metadata in a human-readable manner.'
-    #click.echo('Here is some output from stat')
     client = get_client(context)
     client.stat_and_output(uuid)
 
